@@ -1,9 +1,9 @@
-name: 'Azure Boards, check for AB#'
-description: 'Check if the pull request is linked to a work item in Azure DevOps fork of github.com/danhellem/github-actions-pr-is-linked-to-work-item'
+name: 'PR description contains AB#'
+description: 'Check if the pull request contains AB# in the description'
 author: 'szczepix'
 branding:
-  icon: "code"
-  color: "purple"
+  icon: "check-square"
+  color: "green"
 inputs:
   repo-token:
     description: 'Github token of the repository (automatically created by GitHub)'
