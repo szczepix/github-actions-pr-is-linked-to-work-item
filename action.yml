@@ -1,6 +1,6 @@
 name: 'Azure Boards, check for AB#'
-description: 'Check if the pull request is linked to a work item in Azure DevOps'
-author: 'danhellem'
+description: 'Check if the pull request is linked to a work item in Azure DevOps fork of github.com/danhellem/github-actions-pr-is-linked-to-work-item'
+author: 'szczepix'
 branding:
   icon: "code"
   color: "purple"
@@ -10,5 +10,5 @@ inputs:
     default: ${{ github.token }}
     required: false
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
