@@ -1,5 +1,5 @@
-name: 'PR description contains AB#'
-description: 'Check if the pull request contains AB# in the description'
+name: 'Azure Boards link - PR description contains AB#'
+description: 'Check if the pull request contains AB# in the description - Azure Boards link'
 author: 'szczepix'
 branding:
   icon: "check-square"
